@@ -30,6 +30,7 @@ body{
 .box{
     height: 18vmin;
     width: 18vmin;
+    background-color: #D9D0DE;
     border-radius: 1rem;
     border : none;
     box-shadow: 0 0 0.5rem ;
@@ -45,7 +46,32 @@ body{
     border : none;
     font-weight: bold;
     background-color: #A04668;
-    color: #0C1713;
+    color: #b5c7c1;
     font-size: 1rem;
     cursor: pointer;
+}
+#new-btn{
+   padding : 1rem;
+   font-size: 1.25rem;
+   border-radius: 1rem;
+   border : none;
+   background-color: #A04668;
+   color: #b5c7c1;
+   font-size: 1rem;
+   cursor: pointer;
+
+}
+#msg{
+    color: #A04668;
+    font-size: 5vmin;
+    margin-bottom: 2%;
+}
+
+.msg-container{
+    margin-top: 40vmin;
+    height: 100vmin;
+}
+
+.hide{
+    display: none;
 }
