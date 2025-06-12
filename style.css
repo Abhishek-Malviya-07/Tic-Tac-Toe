@@ -36,7 +36,8 @@ body{
     box-shadow: 0 0 0.5rem ;
     font-size: 8vmin;
     font-weight: bold;
-    color: #A04668;
+    
+
     cursor: pointer;
 }
 
@@ -74,4 +75,13 @@ body{
 
 .hide{
     display: none;
+}
+
+.o-style{
+    color: green;
+   
+}
+.x-style{
+    color: red;
+    
 }
